@@ -1,4 +1,5 @@
 *{
+
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,7 +8,21 @@
 body{
     background-color: black;
 }
+.search{
+    display: inline-block;
+    background-color: white;
+    color: rgb(36, 34, 34);
+    justify-content: right;
 
+}
+#logo{
+    margin-right: 500px;
+}
+#search{
+    margin-right: 5px;
+    padding: 4px;
+    
+}
 .first{
     background-image: url("assets/images/bg.jpg");
     width: 100%;
@@ -21,6 +36,7 @@ body{
     left: 0;
     box-shadow: inset 5px 50px 50px 5px rgb(0 0 0 / 72%), inset -5px -50px 50px 5px rgb(0 0 0 / 72%);
 }
+
 .first .box{
     margin-top: 0;
     padding: 0;
@@ -38,7 +54,6 @@ body{
     margin: auto;
     height: 62px;
     padding-top: 15px;
-    justify-content: space-between;
     position: relative;
     top: 5px;
     z-index: 10;
@@ -157,7 +172,7 @@ body{
     margin-top: 4%;
     margin-bottom: 4%;
 }
-.
+
 .seventh.img {
     position: relative;
     
@@ -562,6 +577,6 @@ footer{
 }
 @media (max-width: 768px) {
     .first nav, .second, .third, .fourth, .fifth, .sixth, footer {
-        flex-direction: column;
-    }
+        flex-direction: column;
+    }
 }
