@@ -511,3 +511,9 @@ footer{
     margin-top: 20px;
     margin-bottom: 10px;
 }
+@media (max-width: 768px) {
+    .first nav, .second, .third, .fourth, .fifth, .sixth, footer {
+        flex-direction: column;
+    }
+}
+
