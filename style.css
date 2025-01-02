@@ -44,34 +44,7 @@ body{
     z-index: 10;
     flex-wrap: wrap;
 }
-.first nav .login{
-    gap: 22px;
-    display: flex;
-}
-.first .login .btn{
-    background-color: #1b1a1a5c;
-    padding: 2px 6px 2px 7px;
-    font-weight: 400;
-    color: white;
-    font-size: 17px;
-    border: 1px solid gray;
-    border-radius: 3px;
-}
-.first .login .btn select{
-    background-color: #1b1a1a5c;
-    padding: 2px 10px 2px 2px;
-    font-weight: 400;
-    color: white;
-    font-size: 17px;
-    border: none;
-    position: relative;
-    top: 0px;
-}
-.first .login .btn img{
-    padding: 0px 2px 0px 0px;
-    position: relative;
-    top: 2px;
-}
+
 .first .content{
     display: flex;
     justify-content: center;
