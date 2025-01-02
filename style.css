@@ -173,7 +173,7 @@ body{
     right: 27px;
     width: 85%;
     height: 52%;
-    object-fit: none;
+    object-fit: cover;
 }
 
 
